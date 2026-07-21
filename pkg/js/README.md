@@ -151,4 +151,4 @@ try {
 
 ## License
 
-This project is licensed under the Apache-2.0 license. See the [LICENSE](https://github.com/openfga/language/blob/main/LICENSE) file for more info.
+This project is licensed under the Apache-2.0 license. See the [LICENSE](https://github.com/revotech-group/language/blob/main/LICENSE) file for more info.

@@ -65,9 +65,9 @@
     "url": "git://github.com:openfga/language.git"
   },
   "bugs": {
-    "url": "https://github.com/openfga/language/issues"
+    "url": "https://github.com/revotech-group/language/issues"
   },
-  "homepage": "https://github.com/openfga/language#readme",
+  "homepage": "https://github.com/revotech-group/language#readme",
   "engines": {
     "node": ">=20.19.0"
   },

@@ -8,7 +8,7 @@ OpenFGA Language is a multi-language library providing ANTLR grammar for the Ope
 
 **Published packages:**
 - npm: `@openfga/syntax-transformer`
-- Go: `github.com/openfga/language/pkg/go`
+- Go: `github.com/revotech-group/language/pkg/go`
 - Maven: `dev.openfga/openfga-language`
 
 ## Build Commands

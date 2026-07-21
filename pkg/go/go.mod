@@ -1,4 +1,4 @@
-module github.com/openfga/language/pkg/go
+module github.com/revotech-group/language/pkg/go
 
 go 1.25.0
 

@@ -2,13 +2,13 @@
 
 GoLang implementation of ANTLR Grammar for the OpenFGA DSL and parser from and to the OpenFGA JSON Syntax
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/openfga/language.svg)](https://pkg.go.dev/github.com/openfga/language/pkg/go)
-[![GitHub Release](https://img.shields.io/github/v/release/openfga/language?include_prereleases&filter=pkg%2Fgo%2Fv*&label=openfga-language)](https://github.com/openfga/language/tree/main/pkg/go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/revotech-group/language.svg)](https://pkg.go.dev/github.com/revotech-group/language/pkg/go)
+[![GitHub Release](https://img.shields.io/github/v/release/openfga/language?include_prereleases&filter=pkg%2Fgo%2Fv*&label=openfga-language)](https://github.com/revotech-group/language/tree/main/pkg/go)
 
 ## Installation
 
 ```bash
-go get github.com/openfga/language/pkg/go
+go get github.com/revotech-group/language/pkg/go
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ go get github.com/openfga/language/pkg/go
 ### Transformer
 
 ```go
-import "github.com/openfga/language/pkg/go/transformer"
+import "github.com/revotech-group/language/pkg/go/transformer"
 
 ...
 
@@ -40,7 +40,7 @@ generatedDsl, err := transformer.TransformJSONStringToDSL(generatedJsonString)
 ### Transform Mod to JSON
 
 ```go
-import "github.com/openfga/language/pkg/go/transformer"
+import "github.com/revotech-group/language/pkg/go/transformer"
 
 ...
 
@@ -57,7 +57,7 @@ jsonModFile, err := transformer.TransformModFile(modFileContents)
 ### Transform Modules To Model
 
 ```go
-import "github.com/openfga/language/pkg/go/transformer"
+import "github.com/revotech-group/language/pkg/go/transformer"
 
 ...
 
@@ -123,8 +123,8 @@ jsonString, _ := json.MarshalIndent(model, "", "  ")
 
 ### Validation
 
-Not yet implemented, but the [feature is in our issue backlog](https://github.com/openfga/language/issues/99).
+Not yet implemented, but the [feature is in our issue backlog](https://github.com/revotech-group/language/issues/99).
 
 ## License
 
-This project is licensed under the Apache-2.0 license. See the [LICENSE](https://github.com/openfga/language/blob/main/LICENSE) file for more info.
+This project is licensed under the Apache-2.0 license. See the [LICENSE](https://github.com/revotech-group/language/blob/main/LICENSE) file for more info.
