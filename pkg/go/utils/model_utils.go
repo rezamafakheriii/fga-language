@@ -3,7 +3,7 @@ package utils
 import (
 	"fmt"
 
-	openfgav1 "github.com/openfga/api/proto/openfga/v1"
+	openfgav1 "github.com/revotech-group/fga-api/proto/openfga/v1"
 )
 
 // GetModuleForObjectTypeRelation returns the module for the given object type and relation in that type.

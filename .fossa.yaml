@@ -3,10 +3,10 @@ version: 3
 server: https://app.fossa.com
 
 project:
-  id: github.com/revotech-group/language
-  name: github.com/revotech-group/language
+  id: github.com/revotech-group/fga-language
+  name: github.com/revotech-group/fga-language
   link: openfga.dev
-  url: github.com/revotech-group/language
+  url: github.com/revotech-group/fga-language
 
 paths:
   exclude:

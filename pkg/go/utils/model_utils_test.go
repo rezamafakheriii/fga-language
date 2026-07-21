@@ -3,7 +3,7 @@ package utils
 import (
 	"testing"
 
-	openfgav1 "github.com/openfga/api/proto/openfga/v1"
+	openfgav1 "github.com/revotech-group/fga-api/proto/openfga/v1"
 )
 
 func TestGetModuleForObjectTypeRelation(t *testing.T) {

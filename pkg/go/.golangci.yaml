@@ -52,12 +52,12 @@ linters-settings:
       - shadow
       - fieldalignment
   goimports:
-    local-prefixes: "github.com/revotech-group/language/pkg/go"
+    local-prefixes: "github.com/revotech-group/fga-language/pkg/go"
   importas:
     no-unaliased: true # Do not allow unaliased imports of aliased packages.
     no-extra-aliases: false # Do not allow non-required aliases.
     alias:
-      - pkg: github.com/openfga/api/proto/openfga/v1
+      - pkg: github.com/revotech-group/fga-api/proto/openfga/v1
         alias: openfgav1
 
 issues:

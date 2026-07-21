@@ -11,7 +11,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	language "github.com/revotech-group/language/pkg/go/transformer"
+	language "github.com/revotech-group/fga-language/pkg/go/transformer"
 )
 
 type graphTestCase struct {

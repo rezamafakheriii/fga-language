@@ -6,7 +6,7 @@ import (
 	"slices"
 	"strconv"
 
-	openfgav1 "github.com/openfga/api/proto/openfga/v1"
+	openfgav1 "github.com/revotech-group/fga-api/proto/openfga/v1"
 	"gonum.org/v1/gonum/graph"
 	"gonum.org/v1/gonum/graph/multi"
 )

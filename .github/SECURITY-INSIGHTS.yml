@@ -5,12 +5,12 @@ header:
   schema-version: 2.0.0
   last-updated: '2025-09-18'
   last-reviewed: '2025-09-18'
-  url: https://github.com/revotech-group/language
+  url: https://github.com/revotech-group/fga-language
   project-si-source: https://raw.githubusercontent.com/openfga/.github/main/SECURITY-INSIGHTS.yml
   comment: Grammar for the OpenFGA modeling language.
 
 repository:
-  url: https://github.com/revotech-group/language
+  url: https://github.com/revotech-group/fga-language
   status: active
   bug-fixes-only: false
   accepts-change-request: true
@@ -59,10 +59,10 @@ repository:
     url: https://raw.githubusercontent.com/openfga/language/main/LICENSE
     expression: Apache-2.0
   release:
-    changelog: https://github.com/revotech-group/language/releases
+    changelog: https://github.com/revotech-group/fga-language/releases
     automated-pipeline: true
     distribution-points:
-      - uri: https://github.com/revotech-group/language/releases
+      - uri: https://github.com/revotech-group/fga-language/releases
         comment: GitHub Release Page
 
   documentation:
@@ -70,7 +70,7 @@ repository:
     dependency-management-policy: https://github.com/openfga/openfga/blob/main/docs/dependencies-policy.md
     governance: https://github.com/openfga/.github/blob/main/GOVERNANCE.md
     review-policy: https://github.com/openfga/.github/blob/main/CONTRIBUTING.md
-    security-policy: https://github.com/revotech-group/language/SECURITY.md
+    security-policy: https://github.com/revotech-group/fga-language/SECURITY.md
 
   security:
     assessments:

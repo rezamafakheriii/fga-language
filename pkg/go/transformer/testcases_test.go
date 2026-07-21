@@ -9,7 +9,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/revotech-group/language/pkg/go/transformer"
+	"github.com/revotech-group/fga-language/pkg/go/transformer"
 )
 
 type validTestCase struct {

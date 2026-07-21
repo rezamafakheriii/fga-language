@@ -6,9 +6,9 @@ import (
 	"slices"
 	"strings"
 
-	openfgav1 "github.com/openfga/api/proto/openfga/v1"
+	openfgav1 "github.com/revotech-group/fga-api/proto/openfga/v1"
 
-	"github.com/revotech-group/language/pkg/go/utils"
+	"github.com/revotech-group/fga-language/pkg/go/utils"
 )
 
 type ModuleFile struct {

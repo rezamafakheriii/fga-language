@@ -5,10 +5,10 @@ import (
 	"strings"
 
 	"github.com/antlr4-go/antlr/v4"
-	openfgav1 "github.com/openfga/api/proto/openfga/v1"
+	openfgav1 "github.com/revotech-group/fga-api/proto/openfga/v1"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	parser "github.com/revotech-group/language/pkg/go/gen"
+	parser "github.com/revotech-group/fga-language/pkg/go/gen"
 )
 
 type RelationDefinitionOperator string
