@@ -8,7 +8,7 @@ import (
 
 	openfgav1 "github.com/openfga/api/proto/openfga/v1"
 
-	"github.com/openfga/language/pkg/go/transformer"
+	"github.com/revotech-group/language/pkg/go/transformer"
 )
 
 func TestDSLToJSONTransformerForValidCases(t *testing.T) {

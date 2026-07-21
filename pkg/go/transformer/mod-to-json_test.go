@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/openfga/language/pkg/go/transformer"
+	"github.com/revotech-group/language/pkg/go/transformer"
 )
 
 func TestModFileToJSONTransformer(t *testing.T) {

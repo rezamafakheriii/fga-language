@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	language "github.com/openfga/language/pkg/go/transformer"
+	language "github.com/revotech-group/language/pkg/go/transformer"
 )
 
 func TestCompleteWeightedGraph(t *testing.T) {
